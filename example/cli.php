@@ -3,8 +3,8 @@
 
 declare(strict_types=1);
 
-use App\Domain\Math;
+use App\Domain\Kata;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
-
-print Math::sum(1, 2, 3) . PHP_EOL;
+$kata = new Kata();
+print $kata->xxx() . PHP_EOL;

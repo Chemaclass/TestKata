@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -e
 
 function setup_git_hooks()

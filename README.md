@@ -26,10 +26,15 @@ Install the pre-commit hook running:
 
 ### Basic Dockerfile
 
-If you don't have PHP in your local machine, you can use docker to build an image with `PHP 8.0`.
+If you don't have PHP in your local machine, you can use docker to build an image with `PHP 8.1`.
 
 ```bash
-docker build -t php-scaffolding .
+docker build -t test-kata .
+```
+
+If you want to use some other version of php run de following command:
+```bash
+docker build -t test-kata . --build-arg PHP_VERSION=7.4
 ```
 
 ### Contributions

@@ -2,3 +2,4 @@
 /vendor
 /config/local.php
 *.cache
+.env

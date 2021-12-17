@@ -43,7 +43,12 @@
         "psalm": "./vendor/bin/psalm",
         "phpstan": "./vendor/bin/phpstan analyze -c phpstan.neon src",
         "csfix": "./vendor/bin/php-cs-fixer fix",
-        "csrun": "./vendor/bin/php-cs-fixer fix --dry-run"
+        "csrun": "./vendor/bin/php-cs-fixer fix --dry-run",
+        "env-example": "./tools/generate-env-example.sh",
+        "pre-commit": "./tools/git-hooks/init.sh",
+        "tools:permissions": "sudo chmod -R +x ./tools/",
+        "docker:run": "tools/docker/run.sh",
+        "docker:build": "tools/docker/build.sh"
     },
     "config": {
         "platform": {
